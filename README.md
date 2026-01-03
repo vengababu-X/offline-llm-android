@@ -19,6 +19,58 @@ The objective of this project was to evaluate whether a **modern conversational 
 This repository intentionally documents **all challenges and failures**, as mobile on-device LLM deployment is non-trivial and should not be presented as effortless.
 
 ---
+---
+
+## 🧩 Features Achieved
+
+- Fully offline LLM inference on Android
+
+- Interactive chat interface
+
+- Custom system identity (Xking’s personal AI assistant)
+
+- Controlled one-sentence responses
+
+- No cloud APIs or internet dependency
+
+- Stable CPU-only runtime
+  
+---
+
+## ⚠️ Limitations
+
+- Large (7B+) models are unreliable on Android devices
+
+- GGUF files must be handled carefully to avoid corruption
+
+- Performance is limited to CPU execution
+
+- This is a prototype, not a production consumer app
+
+--- 
+## 🧪 What This Project Demonstrates
+
+- On-device LLM inference is feasible on consumer Android hardware
+
+- Model selection matters more than parameter count
+
+- Mobile AI engineering requires different trade-offs than desktop/server AI
+
+- Honest documentation improves reproducibility and learning
+
+
+
+---
+
+## 📂 Repository Notes
+
+- .gguf model files are not included due to GitHub size limits
+
+- See models/README.md for model download instructions
+
+- This repository focuses on deployment and execution, not model training
+
+--- 
 
 ## 📱 Device & Environment Used
 
@@ -116,7 +168,6 @@ The project switched to a **smaller, chat-tuned model** optimized for efficiency
 
 This decision made the project viable.
 
----
 
 ## ▶️ Final Execution Command
 
@@ -133,63 +184,6 @@ When asked who you are or who built you, reply in ONE short sentence only.
 
 ---
 
-## 🧩 Features Achieved
-
-Fully offline LLM inference on Android
-
-Interactive chat interface
-
-Custom system identity (Xking’s personal AI assistant)
-
-Controlled one-sentence responses
-
-No cloud APIs or internet dependency
-
-Stable CPU-only runtime
-
-
-
----
-
-## ⚠️ Limitations
-
-Large (7B+) models are unreliable on Android devices
-
-GGUF files must be handled carefully to avoid corruption
-
-Performance is limited to CPU execution
-
-This is a prototype, not a production consumer app
-
-
-
----
-
-## 🧪 What This Project Demonstrates
-
-On-device LLM inference is feasible on consumer Android hardware
-
-Model selection matters more than parameter count
-
-Mobile AI engineering requires different trade-offs than desktop/server AI
-
-Honest documentation improves reproducibility and learning
-
-
-
----
-
-## 📂 Repository Notes
-
-.gguf model files are not included due to GitHub size limits
-
-See models/README.md for model download instructions
-
-This repository focuses on deployment and execution, not model training
-
-
-
----
 
 ## 👤 Author
 
