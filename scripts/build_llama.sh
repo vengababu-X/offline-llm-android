@@ -7,8 +7,11 @@ pkg update && pkg upgrade -y
 pkg install -y git cmake clang
 
 # Clone llama.cpp
-git clone https://github.com/ggerganov/llama.cpp.git
+git clone https://github.com/ggml-org/llama.cpp.git
 
-# Build llama.cpp
+# Build using CMake
 cd llama.cpp
-make
+mkdir build
+cd build
+cmake ..
+cmake --build . --config Release
