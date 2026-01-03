@@ -100,8 +100,10 @@ This animation demonstrates the AI responding **fully offline** on an Android de
 
 ### Full Demo Video
 
-▶️ Full demo video (hosted by GitHub):  
-*(Upload `.mp4` via GitHub README editor; GitHub will auto-host it)*
+mkdir -p screenshots
+git mv screen-recording-20260103-180722-termux_1FeFZ0Ai.mp4 screenshots/
+git commit -m "Move demo video into screenshots folder"
+git push
 
 ---
 
