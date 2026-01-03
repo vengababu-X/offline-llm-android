@@ -100,10 +100,9 @@ This animation demonstrates the AI responding **fully offline** on an Android de
 
 ### Full Demo Video
 
-mkdir -p screenshots
-git mv screen-recording-20260103-180722-termux_1FeFZ0Ai.mp4 screenshots/
-git commit -m "Move demo video into screenshots folder"
-git push
+▶️ [Click to watch the full offline demo](assets/screen-recording-20260103-180722-termux_1FeFZ0Ai.mp4)
+
+*Recorded fully offline on an Android device using Termux, llama.cpp, and the Qwen chat model.*
 
 ---
 
